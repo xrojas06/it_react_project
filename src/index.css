@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-red: #BA1200;
+    --baby-blue: #9DD1F1;
+    --black-cool: #031927;
+    --blue-gray: #EBF8FF;
+    --purple-blue: #212259;
+    --white-blue: #F7FBFF;
+    --gray-cool: #F1F1F1;
+    --second-red: #D23423;
+
+    --app-bg: white;
+    --sidebar: var(--primary-red);
+    --sidebar-main-color: white;
+    --table-border: orange;
+    --table-header: orange;
+    --app-content-main-color: black;
+    --sidebar-link: white;
+    --sidebar-active-link: var(--second-red);
+    --sidebar-hover-link: var(--second-red);
+    --action-color: var(--baby-blue);
+    --action-color-hover: var(--purple-blue);
+    --app-content-secondary-color: var(--white-blue);
+    --filter-reset: var(--baby-blue);
+    --filter-shadow: var(--gray-cool) 0px 6px 12px -2px,
+    var(--baby-blue) 0px 3px 7px -3px;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+
+}
